@@ -1,0 +1,7 @@
+Medium :
+https://medium.com/railsfactory/create-spring-boot-application-using-initializr-in-5-mins-c70fc62fd7b0
+[JOB1-02/09/2025]-->Give a very good introduction to Java Spring Boot and how to initialize a project with it.
+
+GeeksForGeeks :
+https://www.geeksforgeeks.org/springboot/spring-initializr/
+[JOB1-02/09/2025]-->Presents Java Spring Boot

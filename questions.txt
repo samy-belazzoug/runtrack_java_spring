@@ -1,0 +1,14 @@
+JOUR 1 :
+    JOB 1 :
+        Objectif : Avoir un projet Spring Boot prêt à être importé dans votre IDE.
+
+        Question : Qu'est-ce que Spring Initializr et comment peut-il faciliter la
+        création d'un nouveau projet Spring?
+        
+        Réponse : Spring Initializr est un outil intégré au web servant à faciliter l'
+        initialization d'un projet Java Spring Boot.
+        Il facilite la création d'un nouveau projet Spring en demandant à l'utilisateur uniquement
+        les propriétés les plus importantes pour un projet Spring Boot et s'occupe de lui générer un .zip
+        contenant tout ce que l'utilisateur a besoin, automatisant la configuration d'un projet, son squelette,
+        augmentant considérablement la productivité des développeurs au sein d'un projet. Ils n'ont plus qu'à se 
+        focaliser sur le code, et pas toutes les propriétés de Maven, Java, les dépendances etc...

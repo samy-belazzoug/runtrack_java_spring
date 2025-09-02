@@ -1,1 +1,0 @@
-Just a text to see if Git commands works on my laptop.
