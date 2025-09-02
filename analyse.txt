@@ -1,0 +1,34 @@
+Dans le dossier demo, on a :
+
+/demo -> là ou il y a  le projet
+    /.mvn -> Contient tout ce qui lié a Maven (configurations, wrapper)
+        /wrapper -> aide à utiliser une seule version de Maven pour le projet 
+                    (évite d'installer plusieurs versions de Maven dans l'OS)
+                    également, il permet à n'importe qui de cloner le projet et le build sans même installer Maven.
+            maven-wrapper.properties -> propriétés de la version de Maven à utiliser (dans mon cas, 3.9.11)
+    /src -> contient le coeur du projet (le code)
+        /main
+            /java -> Contient le code source principal de l'application
+            /ressouces -> Store les ressources non liés à Java comme les configurations, static content, templates.
+                /static -> Utilisé pour servir du contenu static web, comme le CSS, JS, HTML etc..
+                /templates -> Place ou l'on met toutes les templates Thymeleaf.
+                application.properties -> Permet de configurer le comportement de l'application, notamment :
+                                          -Connexions aux databases
+                                          -Paramètres du serveur
+                                          -Niveaux de connexion
+        /test -> Permet de configurer son environnement de tests afin d'effectuer des tests unitaires.
+                 Assure que l'application se lance sans erreurs.
+    .gitattributes -> Permet d'attribuer des propriétés de git basé sur le chamin et le fichier, 
+                      offrant beaucoup de flexibilité pour influencer plusieurs opérations Git.
+    .gitignore -> Liste de tous les fichiers/propriétés qui ne doivent pas être inclus dans un commit.
+    HELP.md -> Introduit le projet
+    mvnw -> [LINUX] Permet d'éxécuter le projet Maven sans avoir Maven installé et présent dans le chemin.
+            Il installe la bonne version de Maven s'il ne le trouve pas.
+    mvnw.cmd -> Même chose que mvnw mais pour un environnement Windows
+    pom.xml -> Project Object Model XML est le fichier principal utilisé par Maven.
+               C'est un outil d'automatisation de build pour les projet java.
+               Il définit :
+                    -Métadatas du projet (nom, version etc..)
+                    -Les dépendences nécéssaires à la compilation, le test et l'éxécution
+                    -Les plugins utilisés durant le processus de build
+                    -Les propriétés de configurations

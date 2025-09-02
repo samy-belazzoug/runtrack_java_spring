@@ -1,4 +1,5 @@
 JOUR 1 :
+    
     JOB 1 :
         Objectif : Avoir un projet Spring Boot prêt à être importé dans votre IDE.
 
@@ -12,3 +13,16 @@ JOUR 1 :
         contenant tout ce que l'utilisateur a besoin, automatisant la configuration d'un projet, son squelette,
         augmentant considérablement la productivité des développeurs au sein d'un projet. Ils n'ont plus qu'à se 
         focaliser sur le code, et pas toutes les propriétés de Maven, Java, les dépendances etc...
+    
+    JOB 2 :
+        Objectif : Comprendre la structure de base d'un projet Spring Boot.
+
+        Question : Pourquoi le fichier pom.xml est-il crucial dans un projet Maven ?
+
+        Réponse : Le fichier pom.xml est crucial dans un projet Maven car il est le fichier principal de celui-ci.
+                  C'est lui qui :
+                  -gère les dépendences
+                  -dit à Maven comment compiler, tester, package, installer et déployer une application avec un cycle de vie prédéfini.
+                  -Intère les plugins
+                  -Paramètres l'environnement (versions de Java, encodage etc...)
+                  -Tout le monde peut build l'app de LA MEME FACON, très pratique pour le travail d'équipe

@@ -1,7 +1,35 @@
 Medium :
 https://medium.com/railsfactory/create-spring-boot-application-using-initializr-in-5-mins-c70fc62fd7b0
 [JOB1-02/09/2025]-->Give a very good introduction to Java Spring Boot and how to initialize a project with it.
+https://medium.com/@dharshanravindran8/understanding-the-basic-folder-structure-of-a-spring-boot-application-bedaaa0e6f3b
+[JOB2-02/09/2025]-->Gives a nice understanding over the basic folder structure of a Spring Boot Application
+https://aliwertt.medium.com/understanding-application-properties-in-spring-boot-b68fcd6a9313
+[JOB2-02/09/2025]-->Nice introduction on application.properties
+https://medium.com/@desjoerdhaan/10-use-cases-of-the-gitattributes-file-2e2dd42c4687
+[JOB2-02/09/2025]-->Explains what is .gitattributes and gives 10 case usages examples.
+https://medium.com/@hasini.miryala7585/in-depth-guide-to-pom-xml-in-spring-boot-projects-d7a00c8762d4
+[JOB2-02/09/2025]-->BANGER : Explains in depth what is the pom.xml in Spring Boot Projects
 
 GeeksForGeeks :
 https://www.geeksforgeeks.org/springboot/spring-initializr/
 [JOB1-02/09/2025]-->Presents Java Spring Boot
+
+Github :
+https://github.com/asbnotebook/spring-boot/blob/master/spring-boot-logging-example/HELP.md
+[JOB2-02/09/2025]-->Give a view on what should a HELP.md file look like
+
+Baeldung :
+https://www.baeldung.com/maven-wrapper
+[JOB2-02/09/2025]-->Presents Maven Wrappen and how to set it up
+
+Stack Overflow :
+https://stackoverflow.com/questions/65600645/what-does-the-mvn-folder-inside-spring-boot-project-mean
+[JOB2-02/09/2025]-->Explains what is .mvn folder inside Spring Boot project
+https://stackoverflow.com/questions/54575780/what-does-the-test-folder-does-in-spring-boot-project
+[JOB2-02/09/2025]-->Explains what does the test folder in spring boot project
+https://stackoverflow.com/questions/41780531/whats-the-difference-between-static-and-templates-folder-under-resources-in-a-s
+[JOB2-02/09/2025]-->Explains very well the difference between templates and static folder in src files of a Spring Boot project
+https://stackoverflow.com/questions/73086622/is-a-gitattributes-file-really-necessary-for-git
+[JOB2-02/09/2025]-->Explains a bit what is .gitattributes and why it is important
+https://stackoverflow.com/questions/38723833/what-is-the-purpose-of-mvnw-and-mvnw-cmd-files
+[JOB2-02/09/2025]-->Explains the purpose of mvnw and mvnw.cmd files
