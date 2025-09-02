@@ -26,3 +26,14 @@ JOUR 1 :
                   -Intère les plugins
                   -Paramètres l'environnement (versions de Java, encodage etc...)
                   -Tout le monde peut build l'app de LA MEME FACON, très pratique pour le travail d'équipe
+
+    JOB 3 : 
+        Objectif : Avoir une application qui affiche "Hello World" à l'adresse
+                   localhost:8080.
+
+        Question : Qu'est-ce qu'un contrôleur dans le contexte de Spring MVC ?
+
+        Réponse : Un contrôleur dans Spring MVC est une classe Java annotée (@Controller ou @RestController) qui gère les requêtes HTTP entrantes.
+                  Ses méthodes, mappées avec @GetMapping, @PostMapping, etc., reçoivent les données envoyées par l’utilisateur,
+                  appellent le modèle ou les services pour les traiter, et renvoient une réponse (une vue HTML ou des données JSON).
+                  Il joue donc le rôle d’intermédiaire entre la partie View (interface utilisateur) et la partie Model (données et logique métier).
