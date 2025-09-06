@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: RuntrackDayOne
+server:
+  port: 8080
+greeting:
+  message: "Hello, You can read me!"

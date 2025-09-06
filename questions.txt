@@ -37,3 +37,14 @@ JOUR 1 :
                   Ses méthodes, mappées avec @GetMapping, @PostMapping, etc., reçoivent les données envoyées par l’utilisateur,
                   appellent le modèle ou les services pour les traiter, et renvoient une réponse (une vue HTML ou des données JSON).
                   Il joue donc le rôle d’intermédiaire entre la partie View (interface utilisateur) et la partie Model (données et logique métier).
+    
+    JOB 4 :
+        Objectif : Afficher un message personnalisé défini dans application.yml sur
+                   votre route.
+
+        Question : Comment Spring permet-il l'injection de propriétés depuis des
+                   fichiers de configuration ?
+        
+        Réponse : Grace à l'annotation @Value, Spring sait qu'il doit chercher dans les propriétés la valeure "${x.y}" que veut l'utilisateur.
+                  application.properties (ou yml) permet entre autre de centraliser les propriétés de l'app, ce qui rends la gestion
+                  et le debuggage plus pratique (pas besoin de fouiller 200 fichiers pour trouver une propriété).
