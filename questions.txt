@@ -48,3 +48,12 @@ JOUR 1 :
         Réponse : Grace à l'annotation @Value, Spring sait qu'il doit chercher dans les propriétés la valeure "${x.y}" que veut l'utilisateur.
                   application.properties (ou yml) permet entre autre de centraliser les propriétés de l'app, ce qui rends la gestion
                   et le debuggage plus pratique (pas besoin de fouiller 200 fichiers pour trouver une propriété).
+    JOB 5 :
+        Objectif : Afficher le message de salutation du profil dev par défaut.
+
+        Question : Pourquoi serait-il utile d'avoir différents profils dans une
+                   application Spring ?
+
+        Réponse : Avoir plusieurs profils dans une application Spring est utile pour adapter la configuration à différents environnements (développement, test, production, etc.).
+                  Cela permet de séparer clairement les paramètres (BDD, logs, sécurité, messages…) sans modifier le code source. Résultat : 
+                  l’application est plus flexible, maintenable et prête pour différents contextes de déploiement.

@@ -1,7 +1,25 @@
 spring:
   application:
     name: RuntrackDayOne
+  profiles:
+    default: prod
 server:
   port: 8080
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
 greeting:
-  message: "Hello, You can read me!"
+  message: "Dev team tells you Hello !"
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+greeting:
+  message: "Hello from prod !"
