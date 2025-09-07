@@ -57,3 +57,14 @@ JOUR 1 :
         Réponse : Avoir plusieurs profils dans une application Spring est utile pour adapter la configuration à différents environnements (développement, test, production, etc.).
                   Cela permet de séparer clairement les paramètres (BDD, logs, sécurité, messages…) sans modifier le code source. Résultat : 
                   l’application est plus flexible, maintenable et prête pour différents contextes de déploiement.
+    
+    JOB 6 :
+        Objectif : Découvrir le rechargement automatique des modifications grâce à
+                DevTools.
+
+        Question : En quoi la dépendance DevTools est-elle bénéfique pour le
+                développement ?
+
+        Réponse : La dépendance DevTools est très pratique pour le développement car elle permet d'automatiser le redémarrage de l'application direcement après des modifications.
+                  Cela peut faire gagner un temps considérable, car là on ne pourra plus lancer/compiler l'application, tester les features, puis fermer, coder etc... là on a juste
+                  à tester.
