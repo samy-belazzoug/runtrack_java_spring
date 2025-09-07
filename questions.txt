@@ -81,3 +81,14 @@ JOUR 2 :
 
         Réponse : Le modèle MVC aide à structurer une application web en séparant clairement les responsabilités : les données et la logique métier (Model), la présentation (View) et la gestion des requêtes (Controller). 
                   Cette séparation rend le code plus lisible, plus facile à maintenir et à faire évoluer.
+    
+    JOB 2 :
+
+        Objectif : Voir le contenu de view.html dans le navigateur via une route
+                   spécifique.
+        
+        Question : Quelle est la différence entre Thymeleaf et les templates HTML
+                   classiques ?
+
+        Réponse : La différence entre Thymeleaf et les templates HTML classiques et que avec Thymeleaf, les pages html deviennent dynamiques.
+                  En gros, c'est un peu comme si on pouvait mettre du code JavaScript (qui est en Java) pour Dynamiser la page.
