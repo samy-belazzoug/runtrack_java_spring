@@ -68,3 +68,16 @@ JOUR 1 :
         Réponse : La dépendance DevTools est très pratique pour le développement car elle permet d'automatiser le redémarrage de l'application direcement après des modifications.
                   Cela peut faire gagner un temps considérable, car là on ne pourra plus lancer/compiler l'application, tester les features, puis fermer, coder etc... là on a juste
                   à tester.
+
+
+JOUR 2 :
+    JOB 1 :
+
+        Objectif : Avoir des notes détaillées ou un schéma représentant le modèle
+        MVC.
+
+        Question : Comment le modèle MVC aide-t-il à structurer une application
+        web ?
+
+        Réponse : Le modèle MVC aide à structurer une application web en séparant clairement les responsabilités : les données et la logique métier (Model), la présentation (View) et la gestion des requêtes (Controller). 
+                  Cette séparation rend le code plus lisible, plus facile à maintenir et à faire évoluer.
