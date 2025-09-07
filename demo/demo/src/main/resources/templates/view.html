@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,12 @@
         <li th:each="fruit : ${fruitsList}" th:text="${fruit}"></li>
     </ul>
 
-    
+    <form action="/welcome" method="post">
+        <input type="text" name="username" placeholder="Entrez votre nom"/>
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <p th:text="${message}"></p>
 
 </body>
 </html>

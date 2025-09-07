@@ -102,3 +102,8 @@ JOUR 2 :
         
         Réponse : Dans Spring, on passe des données d’un contrôleur à une vue en utilisant l’objet Model. 
                   Le contrôleur ajoute les données avec addAttribute, et ces données deviennent accessibles dans le template Thymeleaf via des expressions ${...}.
+    
+    JOB 4 :Réponse : Spring facilite la gestion des formulaires grâce à ses annotations.
+           Avec @PostMapping, on relie directement un formulaire HTML à une méthode du contrôleur.
+           Les données envoyées (inputs) sont récupérées automatiquement via @RequestParam (ou @ModelAttribute) sans avoir à traiter la requête soi-même.
+           Enfin, le Model permet de renvoyer facilement les résultats vers la vue, que Thymeleaf affichera.
