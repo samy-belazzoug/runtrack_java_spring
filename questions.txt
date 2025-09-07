@@ -92,3 +92,13 @@ JOUR 2 :
 
         Réponse : La différence entre Thymeleaf et les templates HTML classiques et que avec Thymeleaf, les pages html deviennent dynamiques.
                   En gros, c'est un peu comme si on pouvait mettre du code JavaScript (qui est en Java) pour Dynamiser la page.
+    
+    JOB 3 :
+
+        Objectif : Voir une liste d'éléments dynamiques dans la vue.
+
+        Question : Comment pouvez-vous passer des données d'un contrôleur à une
+                   vue dans Spring ?
+        
+        Réponse : Dans Spring, on passe des données d’un contrôleur à une vue en utilisant l’objet Model. 
+                  Le contrôleur ajoute les données avec addAttribute, et ces données deviennent accessibles dans le template Thymeleaf via des expressions ${...}.
